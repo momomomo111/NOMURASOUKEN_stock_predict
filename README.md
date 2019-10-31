@@ -1,0 +1,2 @@
+# NOMURASOUKEN_stock_predict
+野村総合研究所の株価をランダムフォレストで予測します。
