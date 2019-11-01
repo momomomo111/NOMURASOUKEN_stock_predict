@@ -270,7 +270,7 @@ else:
 resultNotification="株価予測:「4307:(株)野村総合研究所」\n"+stockDate+"現時点での予測値は"+str(float(targetStockPriceAfter[6].text)+float(pred))+"円。\nよって価格は"+predPriceUpDown+"見込みです。"
 browser.quit()
 
-slackURL="https://hooks.slack.com/services/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"
+slackURL=""
 
 def send_slack(content):
     payload={
